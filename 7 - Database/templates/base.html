@@ -1,0 +1,11 @@
+<h1>Ali's Task Manager Website</h1>
+<h3>This is created using Flask</h3>
+<hr>
+<ul>
+    <li><a href="{{ url_for('index') }}">My Tasks</a></li>
+    <li><a href="{{ url_for('add') }}">Add New</a></li>
+
+</ul>
+
+{% block main %}
+{% endblock %}
